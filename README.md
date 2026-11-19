@@ -33,4 +33,4 @@ tests/
 
 ## Ativando o GitHub Pages
 
-Em **Settings → Pages → Build and deployment → Source**, escolha **GitHub Actions**.
+O deploy publica a pasta `site/` na branch `gh-pages`. Se o site não abrir, vá em **Settings → Pages** e selecione a branch `gh-pages` (pasta `/ (root)`).
