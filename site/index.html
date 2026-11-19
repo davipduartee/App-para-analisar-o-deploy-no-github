@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Calculadora de IMC</h1>
+    <p class="sub">App simples com CI/CD via GitHub Actions e deploy no GitHub Pages.</p>
+
+    <form id="form-imc" novalidate>
+      <label>
+        Peso (kg)
+        <input name="peso" inputmode="decimal" placeholder="Ex.: 70" required>
+      </label>
+      <label>
+        Altura (m)
+        <input name="altura" inputmode="decimal" placeholder="Ex.: 1,75" required>
+      </label>
+      <button type="submit">Calcular</button>
+    </form>
+
+    <p id="resultado" class="resultado" aria-live="polite"></p>
+
+    <footer>
+      Feito por <a href="https://github.com/davipduartee" target="_blank" rel="noopener">@davipduartee</a>
+    </footer>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "app-para-analisar-o-deploy-no-github",
+  "version": "1.0.0",
+  "description": "Calculadora de IMC simples com testes automatizados e deploy contínuo no GitHub Pages.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
